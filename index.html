@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+​
+
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes API Tutorial</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@v5.0.2/dist/amplitude.js"></script>
+    <link rel="shortcut icon" href="http://findicons.com/files/icons/2770/ios_7_icons/512/music.png">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+​
+
+<body>
+    <nav>
+        <div class="nav-wrapper blue-grey lighten-5">
+            <form>
+                <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <h1>iTunes Artist Search :)</h1>
+    <img id="loader" src="https://cdn.dribbble.com/users/1561718/screenshots/3674782/___.gif" alt="loading car">
+    <h2>Now playing <span data-amplitude-song-info="name" class="song-name"></span></h2>
+    
+   
+    
+    <div id="songs" class="row">
+        ​
+    </div>
+    ​
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+​
+
+</html>

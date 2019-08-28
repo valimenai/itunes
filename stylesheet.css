@@ -1,0 +1,23 @@
+h1 { text-align: center 
+
+
+}
+
+.amplitude-paused .pause{
+    display: none;
+}
+
+.amplitude-playing .play {
+
+    display: none
+}
+
+body {
+
+    background-color: gray
+}
+
+h1,h2 {
+
+    color: white
+}
